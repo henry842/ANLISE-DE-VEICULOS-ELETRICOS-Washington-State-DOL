@@ -1,210 +1,245 @@
-# 🚗🔋 Electric Vehicle Market Analysis — Washington State
+# Electric Vehicle Market Analysis - Washington State
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-lightblue)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
----
-
-## 🛠️ Tech Stack | Tecnologias Utilizadas
-
-**🇺🇸**
-- Python  
-- Pandas (data manipulation)  
-- Matplotlib & Seaborn (data visualization)  
-- Jupyter Notebook (analysis environment)  
-
-**🇧🇷**
-- Python  
-- Pandas (manipulação de dados)  
-- Matplotlib & Seaborn (visualização)  
-- Jupyter Notebook (ambiente de análise)  
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-success)
+![Language](https://img.shields.io/badge/Language-EN%20%7C%20PT--BR-blue)
 
 ---
 
-## 🎯 Executive Summary | Resumo Executivo
+## Tech Stack | Tecnologias Utilizadas
 
-**🇺🇸**
+**EN**
+- Jupyter Notebook
+- Python
 
-The electric vehicle market is transitioning from early adoption to rapid expansion.  
-This analysis highlights strong growth, technological maturity, and the critical role of public policies.
-
-**🇧🇷**
-
-O mercado de veículos elétricos está saindo da fase inicial e entrando em expansão acelerada.  
-Esta análise mostra crescimento, maturidade tecnológica e forte impacto de políticas públicas.
+**PT-BR**
+- Jupyter Notebook
+- Python
 
 ---
 
-# 🎬 📊 Data Storytelling | Narrativa dos Dados
+## Executive Summary | Resumo Executivo
+
+**EN**
+
+Electric mobility, market analysis, public policy and adoption trends. This project was organized as a portfolio-ready case study: it explains the objective, the analytical path, the visual evidence and the practical interpretation behind the result.
+
+Main objective: Analyze electric vehicle registrations in Washington State to understand market leaders, range evolution, fuel technology, price distribution, geography and policy impact.
+
+**PT-BR**
+
+Mobilidade eletrica, analise de mercado, politicas publicas e tendencias de adocao. Este projeto foi organizado como um estudo de caso pronto para portfolio: explica o objetivo, o caminho analitico, as evidencias visuais e a interpretacao pratica por tras do resultado.
+
+Objetivo principal: Analisar registros de veiculos eletricos no estado de Washington para entender lideres de mercado, evolucao da autonomia, tecnologia, preco, geografia e impacto de incentivos.
 
 ---
 
-## 🚘 Chapter 1 — Market Leaders | Líderes de Mercado
+## Project Workflow | Fluxo do Projeto
 
-![Top Brands](graficos/01_top_marcas.png)
+**EN**
+- Define the business or analytical question.
+- Prepare, clean and structure the available data or inputs.
+- Explore patterns through tables, metrics and visualizations.
+- Apply statistical logic, SQL, machine learning or application rules when relevant.
+- Translate the output into insights, limitations and next steps.
 
-**🇺🇸**  
-A highly concentrated market, dominated by a few players. Tesla leads not only in volume, but in influence.
-
-**🇧🇷**  
-Um mercado altamente concentrado, dominado por poucas marcas. A Tesla lidera não só em volume, mas em influência.
-
-👉 Insight:
-- Market still favors strong brands  
-- Mercado ainda favorece marcas consolidadas  
-
----
-
-## ⚡ Chapter 2 — The Range Factor | Autonomia
-
-![Range](graficos/02_autonomia_marcas.png)
-
-**🇺🇸**  
-Range is the main competitive advantage — reducing uncertainty and increasing adoption.
-
-**🇧🇷**  
-A autonomia é o principal diferencial competitivo — reduz incerteza e aumenta a adoção.
-
-👉 Insight:
-- Technology drives trust  
-- Tecnologia gera confiança  
+**PT-BR**
+- Definir a pergunta de negocio ou de analise.
+- Preparar, limpar e estruturar os dados ou entradas disponiveis.
+- Explorar padroes por meio de tabelas, metricas e visualizacoes.
+- Aplicar logica estatistica, SQL, machine learning ou regras de aplicacao quando fizer sentido.
+- Traduzir o resultado em insights, limitacoes e proximos passos.
 
 ---
 
-## 📈 Chapter 3 — Evolution | Evolução
+## Data Storytelling | Narrativa dos Dados
 
-![Range Evolution](graficos/03_evolucao_autonomia.png)
+### Chapter 1 - Data Understanding | Entendimento dos Dados
 
-**🇺🇸**  
-Battery range improves consistently over time, signaling technological maturity.
+![Data Understanding | Entendimento dos Dados](graficos/01_top_marcas.png)
 
-**🇧🇷**  
-A autonomia evolui de forma consistente, mostrando maturidade tecnológica.
+**EN**
 
-👉 Insight:
-- Tech is no longer a barrier  
-- Tecnologia deixou de ser barreira  
+What the dataset or inputs represent, what each observation means and which business problem is being explored.
+
+**PT-BR**
+
+O que a base ou entradas representam, qual e o significado de cada observacao e qual problema de negocio esta sendo explorado.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 2 - Exploratory Analysis | Analise Exploratoria
+
+![Exploratory Analysis | Analise Exploratoria](graficos/02_autonomia_marcas.png)
+
+**EN**
+
+The first visual layer reveals distributions, outliers, concentrations and relationships that guide the rest of the project.
+
+**PT-BR**
+
+A primeira camada visual revela distribuicoes, outliers, concentracoes e relacoes que orientam o restante do projeto.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 3 - Modeling / Logic | Modelagem ou Logica
+
+![Modeling / Logic | Modelagem ou Logica](graficos/03_evolucao_autonomia.png)
+
+**EN**
+
+The project translates data into decisions using statistical reasoning, rules, SQL logic, machine learning or an interactive workflow.
+
+**PT-BR**
+
+O projeto transforma dados em decisoes usando raciocinio estatistico, regras, logica SQL, machine learning ou fluxo interativo.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 4 - Results and Interpretation | Resultados e Interpretacao
+
+![Results and Interpretation | Resultados e Interpretacao](graficos/04_bev_vs_phev.png)
+
+**EN**
+
+The outputs are interpreted in practical language so the repository works as both technical evidence and portfolio storytelling.
+
+**PT-BR**
+
+Os resultados sao interpretados em linguagem pratica para que o repositorio funcione como evidencia tecnica e narrativa de portfolio.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 5 - Additional Visual 5 | Visual Adicional 5
+
+![Additional Visual 5 | Visual Adicional 5](graficos/05_crescimento_anual.png)
+
+**EN**
+
+Complementary chart used to expand the analytical reading of the project.
+
+**PT-BR**
+
+Grafico complementar usado para ampliar a leitura analitica do projeto.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 6 - Additional Visual 6 | Visual Adicional 6
+
+![Additional Visual 6 | Visual Adicional 6](graficos/06_top_cidades.png)
+
+**EN**
+
+Complementary chart used to expand the analytical reading of the project.
+
+**PT-BR**
+
+Grafico complementar usado para ampliar a leitura analitica do projeto.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 7 - Additional Visual 7 | Visual Adicional 7
+
+![Additional Visual 7 | Visual Adicional 7](graficos/07_distribuicao_precos.png)
+
+**EN**
+
+Complementary chart used to expand the analytical reading of the project.
+
+**PT-BR**
+
+Grafico complementar usado para ampliar a leitura analitica do projeto.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 8 - Additional Visual 8 | Visual Adicional 8
+
+![Additional Visual 8 | Visual Adicional 8](graficos/08_elegibilidade_cafv.png)
+
+**EN**
+
+Complementary chart used to expand the analytical reading of the project.
+
+**PT-BR**
+
+Grafico complementar usado para ampliar a leitura analitica do projeto.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
 
 ---
 
-## 🔌 Chapter 4 — BEV vs PHEV
+## Repository Structure | Estrutura do Repositorio
 
-![BEV vs PHEV](graficos/04_bev_vs_phev.png)
+**EN**
+- `README.md`: complete bilingual project documentation.
+- `*.ipynb`: notebooks with the analytical workflow, experiments or visual exploration.
+- `assets/readme/` or chart folders: visual outputs used in this README.
 
-**🇺🇸**  
-The market is clearly shifting toward fully electric vehicles.
-
-**🇧🇷**  
-O mercado está migrando claramente para veículos 100% elétricos.
-
-👉 Insight:
-- Full electrification is inevitable  
-- Eletrificação total é inevitável  
+**PT-BR**
+- `README.md`: documentacao completa e bilingue do projeto.
+- `*.ipynb`: notebooks com o fluxo analitico, experimentos ou exploracao visual.
+- `assets/readme/` ou pastas de graficos: saidas visuais usadas neste README.
 
 ---
 
-## 📊 Chapter 5 — Growth | Crescimento
+## How to Run | Como Executar
 
-![Growth](graficos/05_crescimento_anual.png)
+**EN**
+1. Clone the repository.
+2. Create a virtual environment when the project uses Python.
+3. Install the required libraries listed in the notebook/script imports or in `requirements.txt`, when available.
+4. Run the notebooks or scripts from the repository root so relative paths keep working.
 
-**🇺🇸**  
-The market shows exponential growth behavior.
-
-**🇧🇷**  
-O crescimento apresenta comportamento exponencial.
-
-👉 Insight:
-- Market is scaling fast  
-- Mercado em rápida expansão  
-
----
-
-## 🌆 Chapter 6 — Geography | Geografia
-
-![Cities](graficos/06_top_cidades.png)
-
-**🇺🇸**  
-EV adoption is concentrated in urban areas.
-
-**🇧🇷**  
-A adoção está concentrada em áreas urbanas.
-
-👉 Insight:
-- Infrastructure drives adoption  
-- Infraestrutura impulsiona adoção  
+**PT-BR**
+1. Clone o repositorio.
+2. Crie um ambiente virtual quando o projeto usar Python.
+3. Instale as bibliotecas indicadas nos imports dos notebooks/scripts ou em `requirements.txt`, quando existir.
+4. Execute notebooks ou scripts a partir da raiz do repositorio para manter os caminhos relativos funcionando.
 
 ---
 
-## 💰 Chapter 7 — Price | Preço
+## Key Takeaways | Principais Aprendizados
 
-![Price](graficos/07_distribuicao_precos.png)
+**EN**
+- The repository is documented as an end-to-end analytical story, not only as code storage.
+- Visuals, when available, are placed directly in the README to make the result easier to inspect.
+- The bilingual format makes the project accessible to both English and Portuguese readers.
 
-**🇺🇸**  
-EVs are becoming more accessible across price ranges.
-
-**🇧🇷**  
-Os EVs estão se tornando mais acessíveis.
-
-👉 Insight:
-- Market is moving toward mass adoption  
-- Mercado caminha para massificação  
+**PT-BR**
+- O repositorio esta documentado como uma historia analitica ponta a ponta, nao apenas como armazenamento de codigo.
+- Os visuais, quando disponiveis, ficam diretamente no README para facilitar a leitura do resultado.
+- O formato bilingue torna o projeto acessivel para leitores em ingles e portugues.
 
 ---
 
-## 🧩 Chapter 8 — Policy Impact | Incentivos
+## Future Improvements | Proximos Passos
 
-![CAFV](graficos/08_elegibilidade_cafv.png)
-
-**🇺🇸**  
-Government incentives strongly influence adoption.
-
-**🇧🇷**  
-Incentivos governamentais impactam diretamente a adoção.
-
-👉 Insight:
-- Policy is a growth engine  
-- Políticas públicas impulsionam o mercado  
+- Add automated chart export to keep README visuals updated.
+- Add a `requirements.txt` or environment file when dependencies are needed.
+- Include data dictionary, modeling assumptions and evaluation metrics when applicable.
+- Adicionar exportacao automatica dos graficos para manter o README atualizado.
+- Adicionar `requirements.txt` ou arquivo de ambiente quando houver dependencias.
+- Incluir dicionario de dados, premissas de modelagem e metricas de avaliacao quando aplicavel.
 
 ---
 
-# 🧠 Final Story | Conclusão
+## Author | Autor
 
-**🇺🇸**
-
-The EV market is no longer a question of *if*, but *how fast*.  
-Technology is ready, consumers are adopting, and policies are accelerating everything.
-
-The next phase will be defined by:
-- Infrastructure
-- Pricing
-- Market expansion
-
----
-
-**🇧🇷**
-
-O mercado de veículos elétricos não é mais uma questão de *se*, mas de *quão rápido*.  
-A tecnologia está pronta, o consumidor já aderiu e as políticas aceleram o processo.
-
-A próxima fase será definida por:
-- Infraestrutura  
-- Preço  
-- Expansão do mercado  
-
----
-
-# 🚀 Future Improvements | Próximos Passos
-
-- Machine Learning for forecasting  
-- Análise de previsão de crescimento  
-- Clusterização de veículos  
-- Modelagem de mercado  
-
----
-
-## 👨‍💻 Author
-
-Henry 🚀
+Henry
